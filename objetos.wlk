@@ -1,9 +1,9 @@
 import colores.*
 import materiales.*
 object remera {
-  var color = rojo
-  var material = lino
-  var peso = 800
+  const color = rojo
+  const material = lino
+  const peso = 800
 
   method color() = color
   method material() = material
@@ -11,9 +11,9 @@ object remera {
 }
 
 object pelota {
-  var color = pardo
-  var material = cuero
-  var peso = 1300
+  const color = pardo
+  const material = cuero
+  const peso = 1300
 
   method color() = color
   method material() = material
@@ -21,9 +21,9 @@ object pelota {
 }
 
 object biblioteca {
-  var color = verde
-  var material = madera
-  var peso = 8000
+  const color = verde
+  const material = madera
+  const peso = 8000
 
   method color() = color
   method material() = material
@@ -31,8 +31,8 @@ object biblioteca {
 }
 
 object muñeco {
-  var color = celeste
-  var material = vidrio
+  const color = celeste
+  const material = vidrio
   var peso = 500
 
   method color() = color
@@ -46,7 +46,7 @@ object muñeco {
 
 object placa {
   var color = rojo // es variable
-  var material = cobre
+  const material = cobre
   var peso = 500   // es variable
 
   method color() = color
